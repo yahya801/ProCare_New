@@ -470,6 +470,14 @@ label.error {
 .text-muted .p {
     padding: 10px;
 }
+.text-muted2 {
+    opacity: .8;
+    color: inherit;
+    padding: 20px;
+    padding-left: 0px;
+    font-size: 20px;;
+
+}
 .text-primary {
     color: #866f9c
 }
