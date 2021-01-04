@@ -16,7 +16,7 @@
 
 .header1 {
   color: #fff;
-  background: url(images/bg/imageheader.png) center top no-repeat;
+  background: url(images/bg/banner2.png) center top no-repeat;
   background-size: cover;
 }
 
@@ -106,7 +106,8 @@
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2.5s;
   animation-name: fade;
-  animation-duration: 2.5s;
+  animation-duration: 4s;
+  transition: opacity 1s ease;
 }
 
 @-webkit-keyframes fade1 {
