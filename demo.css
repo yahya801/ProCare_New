@@ -16,19 +16,19 @@
 
 .header1 {
   color: #fff;
-  background: url(images/bg/banner2.png) center top no-repeat;
+  background: url(images/bg/banner1.png) center top no-repeat;
   background-size: cover;
 }
 
 .header2 {
   color: #fff;
-  background: url(images/bg/imageheader.png) center top no-repeat;
+  background: url(images/bg/banner2.png) center top no-repeat;
   background-size: cover;
 }
 
 .header3 {
   color: #fff;
-  background: url(images/bg/size-01.png) center top no-repeat;
+  background: url(images/bg/banner3.png) center top no-repeat;
   background-size: cover;
 }
 
@@ -36,12 +36,10 @@
   box-sizing: border-box;
 }
 
-.carousel {
-  background: #eee;
-}
+
 
 .gallery-cell {
   width: 100%;
   /* height: 200px; */
-  margin-right: 10px;
+  /* margin-right: 10px; */
 }
