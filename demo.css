@@ -60,14 +60,14 @@
 .dropdown2-content {
   display: none;
   position: absolute;
-  top:10;
-  right:20;
+  top: 10;
+  right: 20;
   background-color: #f9f9f9;
   min-width: 160px;
   right: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   /* padding: 12px 16px; */
-  z-index: 1; 
+  z-index: 1;
 }
 .dropdown2-content a {
   color: black;
@@ -75,9 +75,20 @@
   text-decoration: none;
   display: block;
 }
-.show {display:block;}
+.show {
+  display: block;
+}
 /* Change color of dropdown links on hover */
 /* .dropdown2-content a:hover {background-color: #ddd !important;} */
 
 /* Show the dropdown menu on hover */
 /* .dropdown2:hover .dropdown2-content {display: block !important;} */
+
+.navbar-toggle {
+  margin-top: 7px;
+}
+
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+}
