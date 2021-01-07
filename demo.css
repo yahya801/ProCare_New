@@ -16,19 +16,19 @@
 
 .header1 {
   color: #fff;
-  background: url(images/bg/banner1.png) center top no-repeat;
+  background: url(images/bg/bannersplash.jpg) center top no-repeat;
   background-size: cover;
 }
 
 .header2 {
   color: #fff;
-  background: url(images/bg/c.jpg) center top no-repeat;
+  background: url(images/bg/banner1.png) center top no-repeat;
   background-size: cover;
 }
 
 .header3 {
   color: #fff;
-  background: url(images/bg/banner3.png) center top no-repeat;
+  background: url(images/bg/c.jpg) center top no-repeat;
   background-size: cover;
 }
 
