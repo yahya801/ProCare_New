@@ -22,13 +22,13 @@
 
 .header2 {
   color: #fff;
-  background: url(images/bg/banner1.png) center top no-repeat;
+  background: url(images/bg/bannersplash.jpg) center top no-repeat;
   background-size: cover;
 }
 
 .header3 {
   color: #fff;
-  background: url(images/bg/c.jpg) center top no-repeat;
+  background: url(images/bg/bannersplash.jpg) center top no-repeat;
   background-size: cover;
 }
 
@@ -99,3 +99,12 @@
 
 /* Show the dropdown menu on hover */
 /* .dropdown2:hover .dropdown2-content {display: block !important;} */
+
+.navbar-toggle {
+  margin-top: 7px;
+}
+
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+}
