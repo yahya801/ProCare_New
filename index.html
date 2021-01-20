@@ -34,144 +34,57 @@
      
   </head>
   <body>
-<nav class="navbar">
-  <div class="container">
-    <div class="navbar-header">
-      <button
-        type="button"
-        class="navbar-toggle collapsed"
-        data-toggle="collapse"
-        data-target="#navbar-collapse"
-        aria-expanded="false"
-      >
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#header" class="brand js-scroller">
-        Procare
-        <span class="circle"></span>
-        <p class="subheading">R&nbsp;e&nbsp;s&nbsp;h&nbsp;a&nbsp;p&nbsp;i&nbsp;n&nbsp;g&nbsp; L&nbsp;i&nbsp;f&nbsp;e&nbsp;</p>
-      </a>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="#home" class="js-scroller"> Home </a>
-        </li>
-        <li>
-          <a href="#aboutus" class="js-scroller"> About </a>
-        </li>
-        
-        <li >
-          
-          <a onclick="myFunction2()" class="dropdown2"> Products <i class="fa fa-caret-down"></i></a>
-          
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle collapsed"
+            data-toggle="collapse"
+            data-target="#navbar-collapse"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#header" class="brand js-scroller">
+            Procare
+            <span class="circle"></span>
+            <p class="subheading">R&nbsp;e&nbsp;s&nbsp;h&nbsp;a&nbsp;p&nbsp;i&nbsp;n&nbsp;g&nbsp; L&nbsp;i&nbsp;f&nbsp;e&nbsp;</p>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#home" class="js-scroller"> Home </a>
+            </li>
+            <li>
+              <a href="#aboutus" class="js-scroller"> About </a>
+            </li>
             
-          
-        
-        <ul id="myDropdown" class="dropdown2-content ">
-          <li> <a href="index.html#products" class="js-scroller">Our Products</a></li>
-          <li><a href="privatelable.html">Private Label</a></li>
-
-        </ul>
-      </li>
-        
-      
-        <li>
-          <a href="#contacts" class="js-scroller"> Contact Us </a>
-        </li>
-        
-      </ul>
-      
-    </div>
-  </div>
-</nav>
-<!-- <section class="nav-bar">
-  <div class="nav-container">
+            <li class="has-children " id="myDIV">
+              
+              <button onclick="myFunction2()" class="dropdown2"> Products <i class="fa fa-caret-down"></i></button>
     
-    <nav>
-      <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-      <ul class="nav-list">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">Web Design</a>
-        </li>
-        <li>
-          <a href="#">Web Development</a>
-          <ul class="nav-dropdown">
+            <ul id="myDropdown" class="dropdown2-content ">
+              <li> <a href="#products" class="js-scroller">Our Products</a></li>
+              <li><a href="privatelabel.html" >Private Label</a></li>
+              <li><a href="specialty_chemicals.html">Specialty Chemicals</a></li>
+            </ul>
+          </li>
+          
             <li>
-              <a href="#">HTML</a>
+              <a href="#contacts" class="js-scroller"> Contact Us </a>
             </li>
-            <li>
-              <a href="#">CSS</a>
-            </li>
-            <li>
-              <a href="#">JavaScript</a>
-            </li>
+            
           </ul>
-        </li>
-        <li>
-          <a href="#!">Graphic Design</a>
-        <ul class="nav-dropdown">
-            <li>
-              <a href="#">Photoshop</a>
-            </li>
-            <li>
-              <a href="#">Illustrator</a>
-            </li>
-            <li>
-              <a href="#">InDesign</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <a href="#!">SEO</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-      </ul>
+          
+        </div>
+      </div>
     </nav>
-  </div>
-</section> -->
-<!-- <div class="navbar2" id="myTopnav">
-  
 
-    <div class="navbar-header">
-  
-      <a href="#header" class="brand">
-        Procare
-        <span class="circle"></span>
-        <p class="subheading">Specialty Chemicals</p>
-      </a>
-      </div>
-     
-     <a href="#news">News</a>
-    <div class="dropdown2">
-      <a class="dropbtn2">Dropdown
-        <i class="fa fa-caret-down"></i>
-      </a>
-      <div class="dropdown2-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
-   
-  <a href="#contact">Contact</a>
-
-</div>
-  
- 
-  
-  
- 
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
- 
-</div> -->
 
 <div class="carousel" data-flickity='{ "autoPlay": 3000, "wrapAround": true, "selectedAttraction": 0.01,
     "friction": 0.2, "prevNextButtons": false, "pageDots": true}'>
@@ -303,15 +216,15 @@
             </div>
           </div>
         </div>
-          <div    class="showcase section">
+          <div    class="showcase section" style="padding-top: 50px">
          
-        <ul class="filter list-unstyled">
+        <!-- <ul class="filter list-unstyled">
           <li class="active"><a href="#" data-filter="*">All</a></li>
           <li><a href="#" data-filter=".presentation">Clearex</a></li>
           <li><a href="#" data-filter=".illustration">Aura</a></li>
           <li><a href="#" data-filter=".icons">Max Tox</a></li>
            
-        </ul>
+        </ul> -->
         <div class="container-fluid">
           <div class="row-showcase row-baseline row js-isotope">
             <div
@@ -501,14 +414,6 @@ window.onclick = function(event) {
         openDropdown.classList.remove('show');
       }
     }
-  }
-}
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "navbar2") {
-    x.className += " responsive";
-  } else {
-    x.className = "navbar2";
   }
 }
 </script>

@@ -58,6 +58,10 @@
   /* cursor: pointer; */
   /* color: black; */
 }
+.active, .dropdown2:hover{
+  background-color: transparent;
+  color: #ffed91;
+}
 .dropdown2-content {
   display: none;
   position: absolute;
@@ -107,4 +111,38 @@
 .navbar {
   min-height: 70px;
   padding-top: 10px;
+}
+
+.navbar-toggle {
+  margin-top: 7px;
+}
+
+.navbar {
+  min-height: 70px;
+  padding-top: 10px;
+}
+
+
+.nav-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+.has-children button{
+  background: transparent;
+  border: none;
+  position: relative;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+   padding: 10px 15px;
+}
+.has-children button:focus {outline:0;}
+@media (min-width: 768px)
+{
+  .navbar-nav > li > button {
+    padding: 0;
+}
 }
