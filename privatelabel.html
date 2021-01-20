@@ -1,300 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Mirrored from paul-themes.com/html/bobby/bobby-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Dec 2020 10:48:52 GMT -->
-  <head>
+<!-- Mirrored from paul-themes.com/html/bobby/bobby-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Dec 2020 10:48:52 GMT -->
+
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Procare</title>
 
     <!-- <link rel="shortcut icon" href="../bobby_v1.0/dist/favicon.png" /> -->
-    <link
-      rel="apple-touch-icon"
-      href="../bobby_v1.0/dist/apple-touch-icon.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="apple-touch-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="apple-touch-icon-114x114.png"
-    />
+    <link rel="apple-touch-icon" href="../bobby_v1.0/dist/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,200,100"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,500,600,700,800,900,200,100" rel="stylesheet" />
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="demo.css" rel="stylesheet" />
-  </head>
-  <body>
-  <nav class="navbar"style="
-  background-color: #009cdd;
-  ">
-      <div class="container">
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar-collapse"
-            aria-expanded="false"
-          >
+</head>
+<!-- style=" background-color: #009cdd; " -->
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#header" class="brand js-scroller">
+                <a href="#header" class="brand js-scroller">
             Procare
             <span class="circle"></span>
             <p class="subheading">R&nbsp;e&nbsp;s&nbsp;h&nbsp;a&nbsp;p&nbsp;i&nbsp;n&nbsp;g&nbsp; L&nbsp;i&nbsp;f&nbsp;e&nbsp;</p>
           </a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html#home"> Home </a>
+                    </li>
+                    <li>
+                        <a href="index.html#aboutus"> About </a>
+                    </li>
+
+                    <li class="has-children">
+
+                        <button onclick="myFunction2()" class="dropdown2 active"> Products <i class="fa fa-caret-down"></i></button>
+
+                        <ul id="myDropdown" class="dropdown2-content ">
+                            <li> <a href="index.html#products">Our Products</a></li>
+                            <li><a href="privatelabel.html">Private Label</a></li>
+                            <li><a href="specialty_chemicals.html">Specialty Chemicals</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="index.html#contacts" class="js-scroller"> Contact Us </a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
-        <div class="navbar-collapse collapse" id="navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="index.html#home"> Home </a>
-            </li>
-            <li>
-              <a href="index.html#aboutus"> About </a>
-            </li>
-            
-            <li class="has-children">
-              
-              <button onclick="myFunction2()" class="dropdown2 active" > Products <i class="fa fa-caret-down"></i></button>
-    
-            <ul id="myDropdown" class="dropdown2-content ">
-              <li> <a href="index.html#products" >Our Products</a></li>
-              <li><a href="privatelabel.html" >Private Label</a></li>
-              <li><a href="specialty_chemicals.html">Specialty Chemicals</a></li>
-            </ul>
-          </li>
-          
-            <li>
-              <a href="index.html#contacts" class="js-scroller"> Contact Us </a>
-            </li>
-            
-          </ul>
-          
-        </div>
-      </div>
     </nav>
 
-   
+
     <main class="content">
-       
-      <section id="aboutus" class="section" 
-      
-              style="
-                 background-color:#F8F8F8;
-                 padding:150px 0 ">
-                <br>
-        <div class="container rel-1">
-          <div class="row">
-            <header class="text-center    ">
-              <h2 class="section-title">Private Label </h2>
-              <p class="text-muted2" style=" 
-                      opacity: .8;
-                      color: inherit;
-                      padding: 20px;
-                      padding-left: 0px;
-                      font-size: 17px;
-                      line-height: 1.9;">
-              Besides having our own range of brands, Procare has a dedicated private label division that has been providing contract manufacturing services to renowned companies and retail groups over the past. From inhouse package designing to R&D and product development, reach out to us for your private label requirements. 
-              </p>
-            </header>
-          </div>
-        
-        </div>
-      
-      </div>
-      </section>
-     
-      <section id="products" class="section">
-        <div class="container rel-1">
-          
-        
-       
-        <div class="container-fluid">
-          <div class="row-showcase row-baseline row js-isotope">
-            <div
-              class="col-showcase col-baseline col-sm-6 col-md-4 presentation js-isotope-item"
-            >
-              <a href="images/showcase/clearex.jpg" title="Coffee break">
-                <figure>
-                  <img alt="" src="images/showcase/clearex.jpg" />
-                  <figcaption>
-                    <div class="wrap">
-                      <header>
-                        <h3>Clearex</h3>
-                      </header>
+        <!-- <div class="breadcrumb-area">
+
+        </div> -->
+        <section id="aboutus" class="section" style="
+                
+               padding-top: 0px ">
+
+            <div class="breadcrumb-area">
+                <div class="container rel-1 ">
+                    <div class="row ">
+                        <header class="text-center ">
+                            <h2 class="section-title ">Private Label </h2>
+
+                        </header>
+
                     </div>
-                  </figcaption>
-                </figure>
-              </a>
-              
-            </div>
-            <div
-              class="col-showcase col-baseline col-sm-6 col-md-4 presentation js-isotope-item"
-            >
-              <a href="images/showcase/aura.jpg" title="Glasses">
-                <figure>
-                  <img alt="" src="images/showcase/aura.jpg" />
-                  <figcaption>
-                    <header>
-                      <h3>Aura</h3>
-                    </header>
-                  </figcaption>
-                </figure>
-                
-              </a>
-            </div>
-            <div
-              class="col-showcase col-baseline col-sm-6 col-md-4 illustration js-isotope-item"
-            >
-              <a href="images/showcase/moxtox.jpg" title="Coffee">
-                <figure>
-                  <img alt="" src="images/showcase/moxtox.jpg" />
-                  <figcaption>
-                    <header>
-                      <h3>Max Tox</h3>
-                    </header>
-                  </figcaption>
-                </figure>
-                
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
- 
- 
- 
- 
-</div>
-</div>
-</div>
 
-    
-
-      <div id="request" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content bgc-light-gray">
-            <div class="modal-header">
-              <span class="close" data-dismiss="modal" aria-label="Close"
-                ><span aria-hidden="true">&times;</span></span
-              >
-              <h2 class="modal-title">Get in touch</h2>
-            </div>
-            <div class="modal-body">
-              <form class="form-request js-ajax-form">
-                <div class="row-fields row">
-                  <div class="form-group col-sm-6">
-                    <input
-                      type="text"
-                      class="form-control"
-                      name="name"
-                      required
-                      placeholder="Name"
-                    />
-                  </div>
-                  <div class="form-group col-sm-6">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      required
-                      placeholder="Email"
-                    />
-                  </div>
-                  <div class="form-group col-sm-12">
-                    <textarea
-                      class="form-control"
-                      rows="3"
-                      name="message"
-                      placeholder="Message"
-                    ></textarea>
-                  </div>
-                  <div class="col-sm-12">
-                    <button type="submit" class="btn">Get in touch</button>
-                  </div>
                 </div>
-              </form>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="container rel-1 " style="padding-top: 50px;">
+                <div class=" row ">
+                    <header class="text-center ">
+                        <h2 class="section-title ">Private Label </h2>
 
-     
+                        <p class=" text-muted2 " style=" opacity: .8; color: inherit; padding: 20px; padding-left: 0px; font-size: 17px; line-height: 1.9; ">
+                            Besides having our own range of brands, Procare has a dedicated private label division that has been providing contract manufacturing services to renowned companies and retail groups over the past. From inhouse package designing to R&D and product development,
+                            reach out to us for your private label requirements.
+                        </p>
 
-      <footer class="footer bgc-primary">
-        <div class="container">
-          <div class="row">
-            <div class="copyright col-sm-12 col-md-6">
-              Copyright © Your Website 2020. All Rights Reserved.
+                    </header>
+
+                </div>
+
             </div>
-            <div class="social col-sm-12 col-md-6">
-              <a style="text-decoration: none ;padding: 10px" href="#" class="fa fa-2x fa-twitter"></a>
-              <a  style="text-decoration: none ;padding: 10px" href="#" class="fa fa-2x fa-facebook"></a>
-              <!-- <a  style="text-decoration: none ;padding: 10px" href="#" class="fa fa-2x fa-googleplus"></a> -->
-              <a  style="text-decoration: none ;padding: 10px" href="#" class="fa fa-2x fa-dribbble"></a>
-              <a style="text-decoration: none ;padding: 10px" href="#" class="fa fa-2x fa-linkedin"></a>
+
+
             </div>
-          </div>
+        </section>
+        <section id="features " class="features section ">
+            <div class="container rel-1 ">
+                <div class="row ">
+                    <header class="text-center col-md-6 col-md-offset-3 ">
+                        <h2 class="section-title ">Our Products</h2>
+                        <!-- <p class="text-muted ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p> -->
+                    </header>
+                </div>
+                <div class="section-content ">
+                    <div class="row-features row ">
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/sanitizer.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Hand Sanitizer</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/facewash.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Face Wash</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/hairremoval.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Hair Removal Creams</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/handwash.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Hand Wash</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/fabriccleaner.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Fabric Cleaner</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/multipurpose.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Multi-purpose Cleaner</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/showergel.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Shower Gel</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+                            </div>
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/shampoo.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Shampoo</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/conditioner.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Conditioner</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/colorshampoo.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Coloring Shampoo</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/haircolor.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Hair Color</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/colordeveloper.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Hair Color Developer</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/bodylotion.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Body Lotion</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/footcream.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Foot Cream</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/facecream2.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Face Cream</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div class="col-feature col-sm-6 col-md-3 ">
+                            <img alt=" " src="images/products/coldcream.png " width="120px " height="120px " />
+                            <div class="media-body ">
+                                <h3>Cold Cream</h3>
+                                <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                            </div>
+
+                        </div>
+                        <div style="align-items: center; ">
+                            <div class="col-feature col-sm-6 col-md-3 ">
+                                <img alt=" " src="images/products/babyoil.png " width="120px " height="120px " />
+                                <div class="media-body ">
+                                    <h3>Baby Oil</h3>
+                                    <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                                </div>
+
+                            </div>
+                            <div class="col-feature col-sm-6 col-md-3 ">
+                                <img alt=" " src="images/products/amlaoil.png " width="120px " height="120px " />
+                                <div class="media-body ">
+                                    <h3>Amla Oil</h3>
+                                    <p class="text-muted ">It is a long established fact that a reader will be distracted</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="products " class="section ">
+            <div class="container rel-1 ">
+
+
+
+                <div class="container-fluid ">
+                    <div class="row-showcase row-baseline row js-isotope ">
+                        <div class="col-showcase col-baseline col-sm-6 col-md-4 presentation js-isotope-item ">
+                            <a href="images/showcase/clearex.jpg " title="Coffee break ">
+                                <figure>
+                                    <img alt=" " src="images/showcase/clearex.jpg " />
+                                    <figcaption>
+                                        <div class="wrap ">
+                                            <header>
+                                                <h3>Clearex</h3>
+                                            </header>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </a>
+
+                        </div>
+                        <div class="col-showcase col-baseline col-sm-6 col-md-4 presentation js-isotope-item ">
+                            <a href="images/showcase/aura.jpg " title="Glasses ">
+                                <figure>
+                                    <img alt=" " src="images/showcase/aura.jpg " />
+                                    <figcaption>
+                                        <header>
+                                            <h3>Aura</h3>
+                                        </header>
+                                    </figcaption>
+                                </figure>
+
+                            </a>
+                        </div>
+                        <div class="col-showcase col-baseline col-sm-6 col-md-4 illustration js-isotope-item ">
+                            <a href="images/showcase/moxtox.jpg " title="Coffee ">
+                                <figure>
+                                    <img alt=" " src="images/showcase/moxtox.jpg " />
+                                    <figcaption>
+                                        <header>
+                                            <h3>Max Tox</h3>
+                                        </header>
+                                    </figcaption>
+                                </figure>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+
+
+
+
+        <div id="request " class="modal fade " role="dialog ">
+            <div class="modal-dialog ">
+                <div class="modal-content bgc-light-gray ">
+                    <div class="modal-header ">
+                        <span class="close " data-dismiss="modal " aria-label="Close "><span aria-hidden="true ">&times;</span></span>
+                        <h2 class="modal-title ">Get in touch</h2>
+                    </div>
+                    <div class="modal-body ">
+                        <form class="form-request js-ajax-form ">
+                            <div class="row-fields row ">
+                                <div class="form-group col-sm-6 ">
+                                    <input type="text " class="form-control " name="name " required placeholder="Name " />
+                                </div>
+                                <div class="form-group col-sm-6 ">
+                                    <input type="email " class="form-control " name="email " required placeholder="Email " />
+                                </div>
+                                <div class="form-group col-sm-12 ">
+                                    <textarea class="form-control " rows="3 " name="message " placeholder="Message "></textarea>
+                                </div>
+                                <div class="col-sm-12 ">
+                                    <button type="submit " class="btn ">Get in touch</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
+
+
+
+        <footer class="footer bgc-primary ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="copyright col-sm-12 col-md-6 ">
+                        Copyright © Your Website 2020. All Rights Reserved.
+                    </div>
+                    <div class="social col-sm-12 col-md-6 ">
+                        <a style="text-decoration: none ;padding: 10px " href="# " class="fa fa-2x fa-twitter "></a>
+                        <a style="text-decoration: none ;padding: 10px " href="# " class="fa fa-2x fa-facebook "></a>
+                        <!-- <a  style="text-decoration: none ;padding: 10px " href="# " class="fa fa-2x fa-googleplus "></a> -->
+                        <a style="text-decoration: none ;padding: 10px " href="# " class="fa fa-2x fa-dribbble "></a>
+                        <a style="text-decoration: none ;padding: 10px " href="# " class="fa fa-2x fa-linkedin "></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
 
-    <div id="error" class="modal modal-message fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <span class="close" data-dismiss="modal" aria-label="Close"
-              ><span aria-hidden="true">&times;</span></span
-            >
-            <h2 class="modal-title">Sorry</h2>
-            Something went wrong
-          </div>
+    <div id="error " class="modal modal-message fade " role="dialog ">
+        <div class="modal-dialog ">
+            <div class="modal-content ">
+                <div class="modal-header ">
+                    <span class="close " data-dismiss="modal " aria-label="Close "><span aria-hidden="true ">&times;</span></span>
+                    <h2 class="modal-title ">Sorry</h2>
+                    Something went wrong
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <script>function myFunction2() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-    window.onclick = function(event) {
-      if (!event.target.matches('.dropdown2')) {
-        var dropdowns = document.getElementsByClassName("dropdown2-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-          var openDropdown = dropdowns[i];
-          if (openDropdown.classList.contains('show')) {
-            openDropdown.classList.remove('show');
-          }
+    <script>
+        function myFunction2() {
+            document.getElementById("myDropdown ").classList.toggle("show ");
         }
-      }
-    }
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropdown2')) {
+                var dropdowns = document.getElementsByClassName("dropdown2-content ");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
     </script>
-    <script data-cfasync="false" src="js/email-decode.min.js"></script>
-    <script src="js/jquery.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="js/gmaps.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/smoothscroll.js"></script> -->
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script src="demo.js"></script>
-  </body>
+    <script data-cfasync="false " src="js/email-decode.min.js "></script>
+    <script src="js/jquery.min.js "></script>
+    <script src="https://maps.google.com/maps/api/js?sensor=true "></script>
+    <script src="js/gmaps.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!-- <script src="js/smoothscroll.js "></script> -->
+    <script src="js/jquery.stellar.min.js "></script>
+    <script src="js/isotope.pkgd.min.js "></script>
+    <script src="js/imagesloaded.pkgd.js "></script>
+    <script src="js/jquery.validate.min.js "></script>
+    <script src="js/jquery.magnific-popup.min.js "></script>
+    <script src="js/main.js "></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js "></script>
+    <script src="demo.js "></script>
+</body>
 
-  <!-- Mirrored from paul-themes.com/html/bobby/bobby-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Dec 2020 10:50:16 GMT -->
+<!-- Mirrored from paul-themes.com/html/bobby/bobby-demo/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 25 Dec 2020 10:50:16 GMT -->
+
 </html>
