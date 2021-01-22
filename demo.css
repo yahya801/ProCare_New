@@ -174,3 +174,14 @@
         padding: 0;
     }
 }
+
+.zoom {
+    width: 120px;
+    height: 120px;
+    transition: transform .5s ease;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
