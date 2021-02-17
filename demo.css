@@ -14,10 +14,36 @@
   background-image: url(images/bg/reviews.jpg);
 } */
 
+@keyframes zoominoutsinglefeatured {
+    
+    0% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .header1 {
     color: #fff;
     background: url(images/bg/bannersplash.jpg) center top no-repeat;
     background-size: cover;
+    /* transition: transform 1.5s ease; */
+    
+    -webkit-animation: zoominoutsinglefeatured 20s 1;  
+  
+}
+@keyframes slideup {
+    from {
+        opacity: 0;
+      /* margin-top: 50%; */
+      /* height: 300%;  */
+    }
+} 
+   
+.header1 h1{
+    /* opacity: 0; */
+    -webkit-animation: slideup 8s 1;
+    /* transform:translateX(-100%) !important; */
 }
 
 .header2 {
@@ -115,6 +141,9 @@
     .navbar .dropdown2-content {
         position: relative;
     }
+    /* .header1 {
+        -webkit-animation: zoom 20s 1;
+    } */
 }
 
 
@@ -185,4 +214,26 @@
 .zoom:hover {
     transform: scale(1.5);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+@-webkit-keyframes zoom {
+    from {
+    	-webkit-transform: scale(1,1);
+    }
+    to {
+    	-webkit-transform: scale(1.5,1.5);
+    }
+}
+
+/* Standard syntax */
+@keyframes zoom {
+   from {
+        transform: scale(1,1);
+   }
+   to {
+        transform: scale(1.5,1.5);
+   }
+}
+
+.bannerimg{
+    zoom: 150%;
 }

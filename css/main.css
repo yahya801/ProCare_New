@@ -391,6 +391,10 @@
     }
     
     .section-content {
+        margin-top: 40px;
+    }
+    
+    .section-content2 {
         margin-top: 50px;
     }
     
@@ -404,6 +408,9 @@
             padding-bottom: 20px;
         }
         .section-content {
+            /* margin-top: 100px; */
+        }
+        .section-content2 {
             margin-top: 100px;
         }
         .section-lg {
